@@ -20,6 +20,6 @@ export const sendPasswordResetEmail = async (email: string, token: string) => {
     from: "onboarding@resend.dev",
     to: email,
     subject: "Reset Password",
-    html: `<p>Click <a href="${resetLink}}">here to reset password.</a></p>`,
+    html: `<p>Click <a href="${resetLink}">here to reset password.</a></p>`,
   });
 };
